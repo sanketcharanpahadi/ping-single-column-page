@@ -7,28 +7,58 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Ping coming soon page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
 
-  We are launching soon!
+      <header class="header">
+          <img src="images/logo.svg" alt="ping logo" class="logo m-auto">
+          <h1 class="primary-heading"><span>We are launching</span> soon!</h1>
+          <p class="notify">Subscribe and get notified</p>
 
-  Subscribe and get notified
+          <form class="subscribe" action="#">
+            <input type="text" class="email" placeholder="Your email address...">
+            <input type="submit" value="Notify Me" placeholder="Notify Me" class="submit">
+          </form>
+      </header>
 
-  Notify Me
 
-  &copy; Copyright Ping. All rights reserved.
+      <main>
+        <section class="main m-auto">
+          <img src="./images/illustration-dashboard.png" alt="dashboard illustration" class="main-img">
+        </section>
+      </main>
 
-  <footer>
+      <footer class="footer">
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f icon"></i>
+          <i class="fa-brands fa-twitter icon"></i>
+          <i class="fa-brands fa-instagram icon"></i>
+        </div>
+
+        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+
+  <!-- 
+
+  
+
+  
+
+   -->
+
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
