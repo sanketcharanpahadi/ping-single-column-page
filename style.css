@@ -81,6 +81,12 @@ body {
     font-weight: 500;
 }
 
+.error-msg {
+    display: block;
+    font-style: italic;
+    color: var(--color-light-red);
+}
+
 .main {
     max-width: 48%;
 }

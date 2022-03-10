@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/logo.svg" alt="ping logo" class="logo m-auto" />
+      <h1 class="primary-heading"><span>We are launching</span> soon!</h1>
+      <p class="notify">Subscribe and get notified</p>
 
-</head>
-<body>
-
-      <header class="header">
-          <img src="images/logo.svg" alt="ping logo" class="logo m-auto">
-          <h1 class="primary-heading"><span>We are launching</span> soon!</h1>
-          <p class="notify">Subscribe and get notified</p>
-
-          <form class="subscribe" action="#">
-            <input type="text" class="email" placeholder="Your email address...">
-            <input type="submit" value="Notify Me" placeholder="Notify Me" class="submit">
-          </form>
-      </header>
-
-
-      <main>
-        <section class="main m-auto">
-          <img src="./images/illustration-dashboard.png" alt="dashboard illustration" class="main-img">
-        </section>
-      </main>
-
-      <footer class="footer">
-        <div class="icons">
-          <i class="fa-brands fa-facebook-f icon"></i>
-          <i class="fa-brands fa-twitter icon"></i>
-          <i class="fa-brands fa-instagram icon"></i>
+      <form class="subscribe" action="#">
+        <div class="error">
+          <input
+            type="text"
+            class="email"
+            placeholder="Your email address..."
+          />
+          <span class="error-msg"></span>
         </div>
+        <input
+          type="submit"
+          value="Notify Me"
+          placeholder="Notify Me"
+          class="submit"
+        />
+      </form>
+    </header>
 
-        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
-      </footer>
+    <main>
+      <section class="main m-auto">
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="dashboard illustration"
+          class="main-img"
+        />
+      </section>
+    </main>
 
-      <script src="script.js"></script>
+    <footer class="footer">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f icon"></i>
+        <i class="fa-brands fa-twitter icon"></i>
+        <i class="fa-brands fa-instagram icon"></i>
+      </div>
 
-</body>
+      <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
