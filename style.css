@@ -55,18 +55,22 @@ body {
     margin-top: 4rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.5rem;
 }
 
 .email {
     width: 400px;
     border-radius: 50px;
-    padding: 1.6rem 3rem;
+    padding: 1.8rem 3rem;
     font-size: 1.6rem;
-    color: var(--color-primary-grey);
+    color: var(--color-pale-blue);
     border: none;
     border: 1px solid var(--color-pale-blue);
+}
+
+.email:focus {
+    outline: none;
 }
 
 .submit {
@@ -77,14 +81,18 @@ body {
     background: var(--color-primary-blue);
     font-size: 1.7rem;
     cursor: pointer;
-    padding: 1.6rem 6rem;
+    padding: 1.8rem 6rem;
     font-weight: 500;
+    box-shadow: 0px 10px 20px #c2d3ff;
 }
 
 .error-msg {
     display: block;
     font-style: italic;
     color: var(--color-light-red);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
 }
 
 .main {
@@ -149,6 +157,7 @@ body {
 
     .subscribe {
         flex-direction: column;
+        align-items: center;
     }
 
     .email {
