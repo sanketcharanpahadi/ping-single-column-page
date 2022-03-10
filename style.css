@@ -92,7 +92,7 @@ body {
 }
 
 .footer {
-    max-width: 30%;
+    max-width: 70%;
     margin: 0 auto;
     margin-top: 8rem;
 }
@@ -121,6 +121,72 @@ body {
     font-size: 1.2rem;
     color: var(--color-primary-grey);
 }
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10rem 0;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .primary-heading {
+        font-size: 2.5rem;
+        margin-top: 6rem;
+    }
+
+    .notify {
+        font-size: 1.3rem;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .email {
+        width: 300px;
+        font-size: 1.3rem;
+        padding: 1.5rem 3rem;
+    }
+
+    .submit {
+        width: 300px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+   .main {
+       max-width: 90%;
+   }
+
+   .footer {
+       margin-top: 10rem;
+   }
+
+   .icons {
+       font-size: 2rem;
+       margin-bottom: 4rem;
+   }
+
+   .icon {
+       padding: 1rem;
+       width: 40px;
+       height: 40px;
+   }
+
+   .icon:not(:last-child) {
+    margin-right: 2rem;
+}
+
+   .copyright {
+       font-size: 1.3rem;
+   }
+
+}
+
+
 
 /* UTILITIES */
 .m-auto {
