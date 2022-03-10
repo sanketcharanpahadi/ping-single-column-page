@@ -92,7 +92,7 @@ body {
     color: var(--color-light-red);
     margin-top: 1rem;
     font-size: 1.2rem;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 
 .main {
@@ -113,7 +113,7 @@ body {
 
 .icons {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: var(--color-primary-blue);
     margin-bottom: 3rem;
 }
@@ -121,13 +121,15 @@ body {
 .icon {
     border: 1px solid var(--color-pale-blue);
     border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
     padding: .7rem;
 }
 
 
 
 .icon:not(:last-child) {
-    margin-right: 2.5rem;
+    margin-right: 1rem;
 }
 
 .copyright {
